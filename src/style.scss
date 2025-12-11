@@ -126,7 +126,7 @@
     padding: 11px 35px 12px 16px;
     font-size: 0.875rem;
     color: variables.$gray-800;
-    background-image: url('./icons/magnifying-glass.svg');
+    background-image: url('/icons/magnifying-glass.svg');
     background-repeat: no-repeat;
     background-position: right 14px center;
 
@@ -274,7 +274,7 @@
       left: 0px;
       width: 24px;
       height: 24px;
-      background-image: url('./icons/convert.svg');
+      background-image: url('/icons/convert.svg');
       background-repeat: no-repeat;
       background-size: contain;
     }
@@ -305,7 +305,7 @@ body::before {
   right: 0;
   width: 117px;
   height: 177px;
-  background-image: url('./icons/dots.svg');
+  background-image: url('/icons/dots.svg');
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -319,7 +319,7 @@ body::after {
   left: 56px;
   width: 83px;
   height: 44px;
-  background-image: url('./icons/shapes1.svg');
+  background-image: url('/icons/shapes1.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -331,7 +331,7 @@ body::after {
   transform: translateY(-50%);
   width: 85px;
   height: 85px;
-  background-image: url('./icons/shapes2.svg');
+  background-image: url('/icons/shapes2.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
