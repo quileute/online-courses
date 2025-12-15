@@ -1,0 +1,33 @@
+.load-more-button {
+  text-align: center;
+  border: none;
+  background: none;
+  font-weight: 700;
+  color: $gray-800;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 40px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background-image: url('/icons/convert.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &--hidden {
+    display: none;
+  }
+}
+
+.container__load-more-button {
+  margin-top: 80px;
+}

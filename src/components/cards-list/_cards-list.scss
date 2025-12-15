@@ -1,0 +1,16 @@
+.cards-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  @media (max-width: 1276px) {
+    justify-content: center;
+  }
+
+  &__no-results-message {
+    line-height: 1.6;
+    text-align: center;
+    padding: 40px 0;
+    color: $gray-600;
+    width: 100%;
+  }
+}
