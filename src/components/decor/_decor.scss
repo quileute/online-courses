@@ -1,0 +1,38 @@
+.decor {
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.decor--top-right {
+  top: 0;
+  right: 0;
+  width: 117px;
+  height: 177px;
+  background-image: url('/icons/dots.svg');
+}
+
+.decor--bottom-left {
+  top: 687px;
+  left: 56px;
+  width: 83px;
+  height: 44px;
+  background-image: url('/icons/shapes1.svg');
+}
+
+.decor--middle-right {
+  top: 1104px;
+  right: 72px;
+  transform: translateY(-50%);
+  width: 85px;
+  height: 85px;
+  background-image: url('/icons/shapes2.svg');
+}
+
+@media (max-width: 1650px) {
+  .decor {
+    display: none;
+  }
+}

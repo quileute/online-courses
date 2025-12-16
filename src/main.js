@@ -8,15 +8,14 @@ import {
   renderCardsList,
 } from './components/cards-list/cards-list.js';
 import { createLoadMoreButton } from './components/load-more-button/load-more-button.js';
+import { initDecorations } from './components/decor/decor.js';
 
 import './styles/base.scss';
 
 document.addEventListener('DOMContentLoaded', () => {
   const appContainer = document.querySelector('.app-container');
 
-  const decorationMiddleRight = document.createElement('div');
-  decorationMiddleRight.classList.add('decoration-middle-right');
-  appContainer.appendChild(decorationMiddleRight);
+  initDecorations(appContainer);
 
   const container = document.createElement('div');
   container.classList.add('container');
